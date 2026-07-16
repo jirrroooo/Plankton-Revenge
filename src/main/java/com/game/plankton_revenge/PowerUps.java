@@ -5,8 +5,8 @@ import javafx.scene.image.Image;
 public class PowerUps extends Sprite{
     public final static int POWER_UPS_WIDTH = 20;
     public final static int POWER_UPS_HEIGHT = 20;
-    public final static Image IMMUNITY = new Image("C:\\Users\\User\\Documents\\Programming Stuff\\plankton_revenge\\src\\main\\java\\com\\game\\plankton_revenge\\images\\immunity.png");
-    public final static Image SPEED_BOOSTER = new Image("C:\\Users\\User\\Documents\\Programming Stuff\\plankton_revenge\\src\\main\\java\\com\\game\\plankton_revenge\\images\\booster.png");
+    public final static Image IMMUNITY = ResourceLoader.image("immunity.png");
+    public final static Image SPEED_BOOSTER = ResourceLoader.image("booster.png");
 
     private static int counter = 0;
     private long spawnTime;

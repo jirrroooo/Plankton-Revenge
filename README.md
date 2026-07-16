@@ -7,6 +7,38 @@ This is a game based on Java. The GUI used is JavaFX. The goal of the game is to
 
 ## Details
 
+## Run locally
+
+Requirements:
+- Java 17
+- Docker, if you want the containerized run path
+
+Native Maven run:
+
+```bash
+chmod +x mvnw
+./mvnw clean javafx:run
+```
+
+Docker build:
+
+```bash
+docker build -t plankton-revenge .
+```
+
+Docker GUI run on Linux:
+
+```bash
+docker run --rm -e DISPLAY="$DISPLAY" -v /tmp/.X11-unix:/tmp/.X11-unix plankton-revenge
+```
+
+Docker GUI run on macOS requires XQuartz with network clients enabled:
+
+```bash
+xhost + 127.0.0.1
+docker run --rm -e DISPLAY=host.docker.internal:0 plankton-revenge
+```
+
 
 ###### Instruction:
 ![Instruction 1](/src/main/java/com/game/plankton_revenge/images/Slide1.JPG)
@@ -34,4 +66,3 @@ This is a game based on Java. The GUI used is JavaFX. The goal of the game is to
 
 ###### Game Statistics:
 ![Game Statistics](/src/main/java/com/game/plankton_revenge/images/Slide9.JPG)
-

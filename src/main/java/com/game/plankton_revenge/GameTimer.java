@@ -50,9 +50,9 @@ public class GameTimer extends AnimationTimer {
     public static final int GAME_BOUND = -800;
 
 
-    private final Image background = new Image("C:\\Users\\User\\Documents\\Programming Stuff\\plankton_revenge\\src\\main\\java\\com\\game\\plankton_revenge\\images\\bg.jpg");
-    private final Image warningImg = new Image("C:\\Users\\User\\Documents\\Programming Stuff\\plankton_revenge\\src\\main\\java\\com\\game\\plankton_revenge\\images\\warning.png", 50, 50, false, true);
-    private final Image dangerImg = new Image("C:\\Users\\User\\Documents\\Programming Stuff\\plankton_revenge\\src\\main\\java\\com\\game\\plankton_revenge\\images\\danger.png", 50, 50, false, true);
+    private final Image background = ResourceLoader.image("bg.jpg");
+    private final Image warningImg = ResourceLoader.image("warning.png", 50, 50, false, true);
+    private final Image dangerImg = ResourceLoader.image("danger.png", 50, 50, false, true);
 
     GameTimer(GameStage gs, GraphicsContext gc, Scene scene){
         this.gc = gc;

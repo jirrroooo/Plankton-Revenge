@@ -61,48 +61,48 @@ public class Plankton extends Sprite{
     public final static int BOOSTED_11 = 37;
     public final static int BOOSTED_12 = 38;
 
-    public final static Image PLANKTON_REGULAR = new Image("C:\\Users\\User\\Documents\\Programming Stuff\\plankton_revenge\\src\\main\\java\\com\\game\\plankton_revenge\\images\\plankton1.png");
-    public final static Image PLANKTON_BOOSTED = new Image("C:\\Users\\User\\Documents\\Programming Stuff\\plankton_revenge\\src\\main\\java\\com\\game\\plankton_revenge\\images\\planktonBoosted.png");
-    public final static Image PLANKTON_IMMUNE = new Image("C:\\Users\\User\\Documents\\Programming Stuff\\plankton_revenge\\src\\main\\java\\com\\game\\plankton_revenge\\images\\planktonImmune.png");
+    public final static Image PLANKTON_REGULAR = ResourceLoader.image("plankton1.png");
+    public final static Image PLANKTON_BOOSTED = ResourceLoader.image("planktonBoosted.png");
+    public final static Image PLANKTON_IMMUNE = ResourceLoader.image("planktonImmune.png");
 
-    public final static Image R1 = new Image("C:\\Users\\User\\Documents\\Programming Stuff\\plankton_revenge\\src\\main\\java\\com\\game\\plankton_revenge\\images\\R1.png");
-    public final static Image R2 = new Image("C:\\Users\\User\\Documents\\Programming Stuff\\plankton_revenge\\src\\main\\java\\com\\game\\plankton_revenge\\images\\R2.png");
-    public final static Image R3 = new Image("C:\\Users\\User\\Documents\\Programming Stuff\\plankton_revenge\\src\\main\\java\\com\\game\\plankton_revenge\\images\\R3.png");
-    public final static Image R4 = new Image("C:\\Users\\User\\Documents\\Programming Stuff\\plankton_revenge\\src\\main\\java\\com\\game\\plankton_revenge\\images\\R4.png");
-    public final static Image R5 = new Image("C:\\Users\\User\\Documents\\Programming Stuff\\plankton_revenge\\src\\main\\java\\com\\game\\plankton_revenge\\images\\R5.png");
-    public final static Image R6 = new Image("C:\\Users\\User\\Documents\\Programming Stuff\\plankton_revenge\\src\\main\\java\\com\\game\\plankton_revenge\\images\\R6.png");
-    public final static Image R7 = new Image("C:\\Users\\User\\Documents\\Programming Stuff\\plankton_revenge\\src\\main\\java\\com\\game\\plankton_revenge\\images\\R7.png");
-    public final static Image R8 = new Image("C:\\Users\\User\\Documents\\Programming Stuff\\plankton_revenge\\src\\main\\java\\com\\game\\plankton_revenge\\images\\R8.png");
-    public final static Image R9 = new Image("C:\\Users\\User\\Documents\\Programming Stuff\\plankton_revenge\\src\\main\\java\\com\\game\\plankton_revenge\\images\\R9.png");
-    public final static Image R10 = new Image("C:\\Users\\User\\Documents\\Programming Stuff\\plankton_revenge\\src\\main\\java\\com\\game\\plankton_revenge\\images\\R10.png");
-    public final static Image R11 = new Image("C:\\Users\\User\\Documents\\Programming Stuff\\plankton_revenge\\src\\main\\java\\com\\game\\plankton_revenge\\images\\R11.png");
-    public final static Image R12 = new Image("C:\\Users\\User\\Documents\\Programming Stuff\\plankton_revenge\\src\\main\\java\\com\\game\\plankton_revenge\\images\\R12.png");
+    public final static Image R1 = ResourceLoader.image("R1.png");
+    public final static Image R2 = ResourceLoader.image("R2.png");
+    public final static Image R3 = ResourceLoader.image("R3.png");
+    public final static Image R4 = ResourceLoader.image("R4.png");
+    public final static Image R5 = ResourceLoader.image("R5.png");
+    public final static Image R6 = ResourceLoader.image("R6.png");
+    public final static Image R7 = ResourceLoader.image("R7.png");
+    public final static Image R8 = ResourceLoader.image("R8.png");
+    public final static Image R9 = ResourceLoader.image("R9.png");
+    public final static Image R10 = ResourceLoader.image("R10.png");
+    public final static Image R11 = ResourceLoader.image("R11.png");
+    public final static Image R12 = ResourceLoader.image("R12.png");
 
-    public final static Image I1 = new Image("C:\\Users\\User\\Documents\\Programming Stuff\\plankton_revenge\\src\\main\\java\\com\\game\\plankton_revenge\\images\\I1.png");
-    public final static Image I2 = new Image("C:\\Users\\User\\Documents\\Programming Stuff\\plankton_revenge\\src\\main\\java\\com\\game\\plankton_revenge\\images\\I2.png");
-    public final static Image I3 = new Image("C:\\Users\\User\\Documents\\Programming Stuff\\plankton_revenge\\src\\main\\java\\com\\game\\plankton_revenge\\images\\I3.png");
-    public final static Image I4 = new Image("C:\\Users\\User\\Documents\\Programming Stuff\\plankton_revenge\\src\\main\\java\\com\\game\\plankton_revenge\\images\\I4.png");
-    public final static Image I5 = new Image("C:\\Users\\User\\Documents\\Programming Stuff\\plankton_revenge\\src\\main\\java\\com\\game\\plankton_revenge\\images\\I5.png");
-    public final static Image I6 = new Image("C:\\Users\\User\\Documents\\Programming Stuff\\plankton_revenge\\src\\main\\java\\com\\game\\plankton_revenge\\images\\I6.png");
-    public final static Image I7 = new Image("C:\\Users\\User\\Documents\\Programming Stuff\\plankton_revenge\\src\\main\\java\\com\\game\\plankton_revenge\\images\\I7.png");
-    public final static Image I8 = new Image("C:\\Users\\User\\Documents\\Programming Stuff\\plankton_revenge\\src\\main\\java\\com\\game\\plankton_revenge\\images\\I8.png");
-    public final static Image I9 = new Image("C:\\Users\\User\\Documents\\Programming Stuff\\plankton_revenge\\src\\main\\java\\com\\game\\plankton_revenge\\images\\I9.png");
-    public final static Image I10 = new Image("C:\\Users\\User\\Documents\\Programming Stuff\\plankton_revenge\\src\\main\\java\\com\\game\\plankton_revenge\\images\\I10.png");
-    public final static Image I11 = new Image("C:\\Users\\User\\Documents\\Programming Stuff\\plankton_revenge\\src\\main\\java\\com\\game\\plankton_revenge\\images\\I11.png");
-    public final static Image I12 = new Image("C:\\Users\\User\\Documents\\Programming Stuff\\plankton_revenge\\src\\main\\java\\com\\game\\plankton_revenge\\images\\I12.png");
+    public final static Image I1 = ResourceLoader.image("I1.png");
+    public final static Image I2 = ResourceLoader.image("I2.png");
+    public final static Image I3 = ResourceLoader.image("I3.png");
+    public final static Image I4 = ResourceLoader.image("I4.png");
+    public final static Image I5 = ResourceLoader.image("I5.png");
+    public final static Image I6 = ResourceLoader.image("I6.png");
+    public final static Image I7 = ResourceLoader.image("I7.png");
+    public final static Image I8 = ResourceLoader.image("I8.png");
+    public final static Image I9 = ResourceLoader.image("I9.png");
+    public final static Image I10 = ResourceLoader.image("I10.png");
+    public final static Image I11 = ResourceLoader.image("I11.png");
+    public final static Image I12 = ResourceLoader.image("I12.png");
 
-    public final static Image B1 = new Image("C:\\Users\\User\\Documents\\Programming Stuff\\plankton_revenge\\src\\main\\java\\com\\game\\plankton_revenge\\images\\B1.png");
-    public final static Image B2 = new Image("C:\\Users\\User\\Documents\\Programming Stuff\\plankton_revenge\\src\\main\\java\\com\\game\\plankton_revenge\\images\\B2.png");
-    public final static Image B3 = new Image("C:\\Users\\User\\Documents\\Programming Stuff\\plankton_revenge\\src\\main\\java\\com\\game\\plankton_revenge\\images\\B3.png");
-    public final static Image B4 = new Image("C:\\Users\\User\\Documents\\Programming Stuff\\plankton_revenge\\src\\main\\java\\com\\game\\plankton_revenge\\images\\B4.png");
-    public final static Image B5 = new Image("C:\\Users\\User\\Documents\\Programming Stuff\\plankton_revenge\\src\\main\\java\\com\\game\\plankton_revenge\\images\\B5.png");
-    public final static Image B6 = new Image("C:\\Users\\User\\Documents\\Programming Stuff\\plankton_revenge\\src\\main\\java\\com\\game\\plankton_revenge\\images\\B6.png");
-    public final static Image B7 = new Image("C:\\Users\\User\\Documents\\Programming Stuff\\plankton_revenge\\src\\main\\java\\com\\game\\plankton_revenge\\images\\B7.png");
-    public final static Image B8 = new Image("C:\\Users\\User\\Documents\\Programming Stuff\\plankton_revenge\\src\\main\\java\\com\\game\\plankton_revenge\\images\\B8.png");
-    public final static Image B9 = new Image("C:\\Users\\User\\Documents\\Programming Stuff\\plankton_revenge\\src\\main\\java\\com\\game\\plankton_revenge\\images\\B9.png");
-    public final static Image B10 = new Image("C:\\Users\\User\\Documents\\Programming Stuff\\plankton_revenge\\src\\main\\java\\com\\game\\plankton_revenge\\images\\B10.png");
-    public final static Image B11 = new Image("C:\\Users\\User\\Documents\\Programming Stuff\\plankton_revenge\\src\\main\\java\\com\\game\\plankton_revenge\\images\\B11.png");
-    public final static Image B12 = new Image("C:\\Users\\User\\Documents\\Programming Stuff\\plankton_revenge\\src\\main\\java\\com\\game\\plankton_revenge\\images\\B12.png");
+    public final static Image B1 = ResourceLoader.image("B1.png");
+    public final static Image B2 = ResourceLoader.image("B2.png");
+    public final static Image B3 = ResourceLoader.image("B3.png");
+    public final static Image B4 = ResourceLoader.image("B4.png");
+    public final static Image B5 = ResourceLoader.image("B5.png");
+    public final static Image B6 = ResourceLoader.image("B6.png");
+    public final static Image B7 = ResourceLoader.image("B7.png");
+    public final static Image B8 = ResourceLoader.image("B8.png");
+    public final static Image B9 = ResourceLoader.image("B9.png");
+    public final static Image B10 = ResourceLoader.image("B10.png");
+    public final static Image B11 = ResourceLoader.image("B11.png");
+    public final static Image B12 = ResourceLoader.image("B12.png");
 
 
     Plankton(int x, int y, long spawnTime){

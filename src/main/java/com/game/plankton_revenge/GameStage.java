@@ -31,7 +31,7 @@ public class GameStage {
     private int selector = 0;
     private ArrayList<Image> instructions;
 
-    public static final Image ABOUT_BG = new Image("C:\\Users\\User\\Documents\\Programming Stuff\\plankton_revenge\\src\\main\\java\\com\\game\\plankton_revenge\\images\\about.jpg");
+    public static final Image ABOUT_BG = ResourceLoader.image("about.jpg");
 
     //the class constructor
     public GameStage() {
@@ -41,15 +41,15 @@ public class GameStage {
         this.gameScene = new Scene(root, GameStage.WINDOW_WIDTH, GameStage.WINDOW_HEIGHT);
         this.instructions = new ArrayList<>();
 
-        Image s1 = new Image("C:\\Users\\User\\Documents\\Programming Stuff\\plankton_revenge\\src\\main\\java\\com\\game\\plankton_revenge\\images\\Slide1.JPG");
-        Image s2 = new Image("C:\\Users\\User\\Documents\\Programming Stuff\\plankton_revenge\\src\\main\\java\\com\\game\\plankton_revenge\\images\\Slide2.JPG");
-        Image s3 = new Image("C:\\Users\\User\\Documents\\Programming Stuff\\plankton_revenge\\src\\main\\java\\com\\game\\plankton_revenge\\images\\Slide3.JPG");
-        Image s4 = new Image("C:\\Users\\User\\Documents\\Programming Stuff\\plankton_revenge\\src\\main\\java\\com\\game\\plankton_revenge\\images\\Slide4.JPG");
-        Image s5 = new Image("C:\\Users\\User\\Documents\\Programming Stuff\\plankton_revenge\\src\\main\\java\\com\\game\\plankton_revenge\\images\\Slide5.JPG");
-        Image s6 = new Image("C:\\Users\\User\\Documents\\Programming Stuff\\plankton_revenge\\src\\main\\java\\com\\game\\plankton_revenge\\images\\Slide6.JPG");
-        Image s7 = new Image("C:\\Users\\User\\Documents\\Programming Stuff\\plankton_revenge\\src\\main\\java\\com\\game\\plankton_revenge\\images\\Slide7.JPG");
-        Image s8 = new Image("C:\\Users\\User\\Documents\\Programming Stuff\\plankton_revenge\\src\\main\\java\\com\\game\\plankton_revenge\\images\\Slide8.JPG");
-        Image s9 = new Image("C:\\Users\\User\\Documents\\Programming Stuff\\plankton_revenge\\src\\main\\java\\com\\game\\plankton_revenge\\images\\Slide9.JPG");
+        Image s1 = ResourceLoader.image("Slide1.JPG");
+        Image s2 = ResourceLoader.image("Slide2.JPG");
+        Image s3 = ResourceLoader.image("Slide3.JPG");
+        Image s4 = ResourceLoader.image("Slide4.JPG");
+        Image s5 = ResourceLoader.image("Slide5.JPG");
+        Image s6 = ResourceLoader.image("Slide6.JPG");
+        Image s7 = ResourceLoader.image("Slide7.JPG");
+        Image s8 = ResourceLoader.image("Slide8.JPG");
+        Image s9 = ResourceLoader.image("Slide9.JPG");
 
         this.instructions.add(s1);
         this.instructions.add(s2);
@@ -84,7 +84,7 @@ public class GameStage {
         Canvas canvas = new Canvas(GameStage.WINDOW_WIDTH,GameStage.WINDOW_HEIGHT);
         GraphicsContext gc = canvas.getGraphicsContext2D();
 
-        Image bg = new Image("C:\\Users\\User\\Documents\\Programming Stuff\\plankton_revenge\\src\\main\\java\\com\\game\\plankton_revenge\\images\\bg-splash.jpg");
+        Image bg = ResourceLoader.image("bg-splash.jpg");
         gc.drawImage(bg, 0, 0, GameStage.WINDOW_WIDTH, GameStage.WINDOW_HEIGHT);
         return canvas;
     }

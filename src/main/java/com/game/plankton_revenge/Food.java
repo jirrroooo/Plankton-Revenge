@@ -10,7 +10,7 @@ public class Food extends Sprite{
     public final static int FOOD_WIDTH = 20;
     public final static int FOOD_HEIGHT = 20;
     public final static int ADDED_SIZE_FROM_FOOD = 10;
-    public final static Image FOOD_IMAGE = new Image("C:\\Users\\User\\Documents\\Programming Stuff\\plankton_revenge\\src\\main\\java\\com\\game\\plankton_revenge\\images\\krabypatty.png");
+    public final static Image FOOD_IMAGE = ResourceLoader.image("krabypatty.png");
 
     Food(int x, int y){
         super(x,y);

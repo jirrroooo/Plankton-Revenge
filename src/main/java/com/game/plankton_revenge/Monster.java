@@ -30,25 +30,25 @@ public class Monster extends Sprite{
         this.warning = false;
         this.danger = false;
 
-        Image spongebob = new Image("C:\\Users\\User\\Documents\\Programming Stuff\\plankton_revenge\\src\\main\\java\\com\\game\\plankton_revenge\\images\\spongebob.png");
+        Image spongebob = ResourceLoader.image("spongebob.png");
         this.monstersImages.add(spongebob);
-        Image patrick = new Image("C:\\Users\\User\\Documents\\Programming Stuff\\plankton_revenge\\src\\main\\java\\com\\game\\plankton_revenge\\images\\patrick.png");
+        Image patrick = ResourceLoader.image("patrick.png");
         this.monstersImages.add(patrick);
-        Image sandy = new Image("C:\\Users\\User\\Documents\\Programming Stuff\\plankton_revenge\\src\\main\\java\\com\\game\\plankton_revenge\\images\\sandy.png");
+        Image sandy = ResourceLoader.image("sandy.png");
         this.monstersImages.add(sandy);
-        Image squidward = new Image("C:\\Users\\User\\Documents\\Programming Stuff\\plankton_revenge\\src\\main\\java\\com\\game\\plankton_revenge\\images\\squidward.png");
+        Image squidward = ResourceLoader.image("squidward.png");
         this.monstersImages.add(squidward);
-        Image crabs = new Image("C:\\Users\\User\\Documents\\Programming Stuff\\plankton_revenge\\src\\main\\java\\com\\game\\plankton_revenge\\images\\crabs.png");
+        Image crabs = ResourceLoader.image("crabs.png");
         this.monstersImages.add(crabs);
-        Image hero = new Image("C:\\Users\\User\\Documents\\Programming Stuff\\plankton_revenge\\src\\main\\java\\com\\game\\plankton_revenge\\images\\hero.png");
+        Image hero = ResourceLoader.image("hero.png");
         this.monstersImages.add(hero);
-        Image garry = new Image("C:\\Users\\User\\Documents\\Programming Stuff\\plankton_revenge\\src\\main\\java\\com\\game\\plankton_revenge\\images\\garry.png");
+        Image garry = ResourceLoader.image("garry.png");
         this.monstersImages.add(garry);
-        Image whale = new Image("C:\\Users\\User\\Documents\\Programming Stuff\\plankton_revenge\\src\\main\\java\\com\\game\\plankton_revenge\\images\\whale.png");
+        Image whale = ResourceLoader.image("whale.png");
         this.monstersImages.add(whale);
-        Image puff = new Image("C:\\Users\\User\\Documents\\Programming Stuff\\plankton_revenge\\src\\main\\java\\com\\game\\plankton_revenge\\images\\puff.png");
+        Image puff = ResourceLoader.image("puff.png");
         this.monstersImages.add(puff);
-        Image jellyfish = new Image("C:\\Users\\User\\Documents\\Programming Stuff\\plankton_revenge\\src\\main\\java\\com\\game\\plankton_revenge\\images\\jellyfish.png");
+        Image jellyfish = ResourceLoader.image("jellyfish.png");
         this.monstersImages.add(jellyfish);
 
         this.loadImage(monstersImages.get(Monster.counter % GameTimer.MAX_NUM_MONSTERS));
